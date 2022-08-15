@@ -75,14 +75,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .my__modal .modal__container {
-    width: 95%;
-  }
-  .test__nums {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
 
 .test{
   display: flex;
@@ -123,4 +115,19 @@
  position: absolute !important;
  right: 50px;
  top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .my__modal .modal__container {
+    width: 95%;
+  }
+  .test__form{
+    width: 100%;
+  }
+  .test__btn{
+    width: 100%;
+  }
+  .test__nums {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
