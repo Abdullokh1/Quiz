@@ -218,7 +218,7 @@ const Quiz = () => {
               Ok
             </Button>
             <Button
-              className="ms-3 bg-danger"
+              className="ms-3 w-50 bg-danger"
               variant="contained"
               onClick={goHome}
             >
